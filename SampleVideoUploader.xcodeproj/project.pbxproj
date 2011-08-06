@@ -1,0 +1,455 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		5C9E3F9013EDEBFF008CB662 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E3F8F13EDEBFE008CB662 /* UIKit.framework */; };
+		5C9E3F9213EDEBFF008CB662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E3F9113EDEBFF008CB662 /* Foundation.framework */; };
+		5C9E3F9413EDEBFF008CB662 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E3F9313EDEBFF008CB662 /* CoreGraphics.framework */; };
+		5C9E3F9A13EDEBFF008CB662 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E3F9813EDEBFF008CB662 /* InfoPlist.strings */; };
+		5C9E3F9C13EDEBFF008CB662 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E3F9B13EDEBFF008CB662 /* main.m */; };
+		5C9E3FA013EDEBFF008CB662 /* SampleVideoUploaderAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E3F9F13EDEBFF008CB662 /* SampleVideoUploaderAppDelegate.m */; };
+		5C9E3FA313EDEBFF008CB662 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E3FA113EDEBFF008CB662 /* MainWindow.xib */; };
+		5C9E3FA613EDEBFF008CB662 /* SampleVideoUploaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E3FA513EDEBFF008CB662 /* SampleVideoUploaderViewController.m */; };
+		5C9E3FA913EDEBFF008CB662 /* SampleVideoUploaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E3FA713EDEBFF008CB662 /* SampleVideoUploaderViewController.xib */; };
+		5C9E3FB113EDEBFF008CB662 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E3FB013EDEBFF008CB662 /* SenTestingKit.framework */; };
+		5C9E3FB213EDEBFF008CB662 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E3F8F13EDEBFE008CB662 /* UIKit.framework */; };
+		5C9E3FB313EDEBFF008CB662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E3F9113EDEBFF008CB662 /* Foundation.framework */; };
+		5C9E3FB413EDEBFF008CB662 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E3F9313EDEBFF008CB662 /* CoreGraphics.framework */; };
+		5C9E3FBC13EDEBFF008CB662 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E3FBA13EDEBFF008CB662 /* InfoPlist.strings */; };
+		5C9E3FBE13EDEBFF008CB662 /* SampleVideoUploaderTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E3FBD13EDEBFF008CB662 /* SampleVideoUploaderTests.h */; };
+		5C9E3FC013EDEBFF008CB662 /* SampleVideoUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E3FBF13EDEBFF008CB662 /* SampleVideoUploaderTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5C9E3FB513EDEBFF008CB662 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5C9E3F8213EDEBFE008CB662 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5C9E3F8A13EDEBFE008CB662;
+			remoteInfo = SampleVideoUploader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5C9E3F8B13EDEBFE008CB662 /* SampleVideoUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleVideoUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9E3F8F13EDEBFE008CB662 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		5C9E3F9113EDEBFF008CB662 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		5C9E3F9313EDEBFF008CB662 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		5C9E3F9713EDEBFF008CB662 /* SampleVideoUploader-Info.plist */ = {isa = PBXFileReference; path = "SampleVideoUploader-Info.plist"; sourceTree = "<group>"; };
+		5C9E3F9913EDEBFF008CB662 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C9E3F9B13EDEBFF008CB662 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		5C9E3F9D13EDEBFF008CB662 /* SampleVideoUploader-Prefix.pch */ = {isa = PBXFileReference; path = "SampleVideoUploader-Prefix.pch"; sourceTree = "<group>"; };
+		5C9E3F9E13EDEBFF008CB662 /* SampleVideoUploaderAppDelegate.h */ = {isa = PBXFileReference; path = SampleVideoUploaderAppDelegate.h; sourceTree = "<group>"; };
+		5C9E3F9F13EDEBFF008CB662 /* SampleVideoUploaderAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleVideoUploaderAppDelegate.m; sourceTree = "<group>"; };
+		5C9E3FA213EDEBFF008CB662 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
+		5C9E3FA413EDEBFF008CB662 /* SampleVideoUploaderViewController.h */ = {isa = PBXFileReference; path = SampleVideoUploaderViewController.h; sourceTree = "<group>"; };
+		5C9E3FA513EDEBFF008CB662 /* SampleVideoUploaderViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleVideoUploaderViewController.m; sourceTree = "<group>"; };
+		5C9E3FA813EDEBFF008CB662 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/SampleVideoUploaderViewController.xib; sourceTree = "<group>"; };
+		5C9E3FAF13EDEBFF008CB662 /* SampleVideoUploaderTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SampleVideoUploaderTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5C9E3FB013EDEBFF008CB662 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		5C9E3FB913EDEBFF008CB662 /* SampleVideoUploaderTests-Info.plist */ = {isa = PBXFileReference; path = "SampleVideoUploaderTests-Info.plist"; sourceTree = "<group>"; };
+		5C9E3FBB13EDEBFF008CB662 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5C9E3FBD13EDEBFF008CB662 /* SampleVideoUploaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleVideoUploaderTests.h; sourceTree = "<group>"; };
+		5C9E3FBF13EDEBFF008CB662 /* SampleVideoUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleVideoUploaderTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5C9E3F8813EDEBFE008CB662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9E3F9013EDEBFF008CB662 /* UIKit.framework in Frameworks */,
+				5C9E3F9213EDEBFF008CB662 /* Foundation.framework in Frameworks */,
+				5C9E3F9413EDEBFF008CB662 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9E3FAB13EDEBFF008CB662 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9E3FB113EDEBFF008CB662 /* SenTestingKit.framework in Frameworks */,
+				5C9E3FB213EDEBFF008CB662 /* UIKit.framework in Frameworks */,
+				5C9E3FB313EDEBFF008CB662 /* Foundation.framework in Frameworks */,
+				5C9E3FB413EDEBFF008CB662 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5C9E3F8013EDEBFE008CB662 = {
+			isa = PBXGroup;
+			children = (
+				5C9E3F9513EDEBFF008CB662 /* SampleVideoUploader */,
+				5C9E3FB713EDEBFF008CB662 /* SampleVideoUploaderTests */,
+				5C9E3F8E13EDEBFE008CB662 /* Frameworks */,
+				5C9E3F8C13EDEBFE008CB662 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		5C9E3F8C13EDEBFE008CB662 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5C9E3F8B13EDEBFE008CB662 /* SampleVideoUploader.app */,
+				5C9E3FAF13EDEBFF008CB662 /* SampleVideoUploaderTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5C9E3F8E13EDEBFE008CB662 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5C9E3F8F13EDEBFE008CB662 /* UIKit.framework */,
+				5C9E3F9113EDEBFF008CB662 /* Foundation.framework */,
+				5C9E3F9313EDEBFF008CB662 /* CoreGraphics.framework */,
+				5C9E3FB013EDEBFF008CB662 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		5C9E3F9513EDEBFF008CB662 /* SampleVideoUploader */ = {
+			isa = PBXGroup;
+			children = (
+				5C9E3F9E13EDEBFF008CB662 /* SampleVideoUploaderAppDelegate.h */,
+				5C9E3F9F13EDEBFF008CB662 /* SampleVideoUploaderAppDelegate.m */,
+				5C9E3FA113EDEBFF008CB662 /* MainWindow.xib */,
+				5C9E3FA413EDEBFF008CB662 /* SampleVideoUploaderViewController.h */,
+				5C9E3FA513EDEBFF008CB662 /* SampleVideoUploaderViewController.m */,
+				5C9E3FA713EDEBFF008CB662 /* SampleVideoUploaderViewController.xib */,
+				5C9E3F9613EDEBFF008CB662 /* Supporting Files */,
+			);
+			path = SampleVideoUploader;
+			sourceTree = "<group>";
+		};
+		5C9E3F9613EDEBFF008CB662 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C9E3F9713EDEBFF008CB662 /* SampleVideoUploader-Info.plist */,
+				5C9E3F9813EDEBFF008CB662 /* InfoPlist.strings */,
+				5C9E3F9B13EDEBFF008CB662 /* main.m */,
+				5C9E3F9D13EDEBFF008CB662 /* SampleVideoUploader-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		5C9E3FB713EDEBFF008CB662 /* SampleVideoUploaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				5C9E3FBD13EDEBFF008CB662 /* SampleVideoUploaderTests.h */,
+				5C9E3FBF13EDEBFF008CB662 /* SampleVideoUploaderTests.m */,
+				5C9E3FB813EDEBFF008CB662 /* Supporting Files */,
+			);
+			path = SampleVideoUploaderTests;
+			sourceTree = "<group>";
+		};
+		5C9E3FB813EDEBFF008CB662 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				5C9E3FB913EDEBFF008CB662 /* SampleVideoUploaderTests-Info.plist */,
+				5C9E3FBA13EDEBFF008CB662 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5C9E3F8A13EDEBFE008CB662 /* SampleVideoUploader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C9E3FC313EDEBFF008CB662 /* Build configuration list for PBXNativeTarget "SampleVideoUploader" */;
+			buildPhases = (
+				5C9E3F8713EDEBFE008CB662 /* Sources */,
+				5C9E3F8813EDEBFE008CB662 /* Frameworks */,
+				5C9E3F8913EDEBFE008CB662 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SampleVideoUploader;
+			productName = SampleVideoUploader;
+			productReference = 5C9E3F8B13EDEBFE008CB662 /* SampleVideoUploader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5C9E3FAE13EDEBFF008CB662 /* SampleVideoUploaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5C9E3FC613EDEBFF008CB662 /* Build configuration list for PBXNativeTarget "SampleVideoUploaderTests" */;
+			buildPhases = (
+				5C9E3FAA13EDEBFF008CB662 /* Sources */,
+				5C9E3FAB13EDEBFF008CB662 /* Frameworks */,
+				5C9E3FAC13EDEBFF008CB662 /* Resources */,
+				5C9E3FAD13EDEBFF008CB662 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C9E3FB613EDEBFF008CB662 /* PBXTargetDependency */,
+			);
+			name = SampleVideoUploaderTests;
+			productName = SampleVideoUploaderTests;
+			productReference = 5C9E3FAF13EDEBFF008CB662 /* SampleVideoUploaderTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5C9E3F8213EDEBFE008CB662 /* Project object */ = {
+			isa = PBXProject;
+			buildConfigurationList = 5C9E3F8513EDEBFE008CB662 /* Build configuration list for PBXProject "SampleVideoUploader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 5C9E3F8013EDEBFE008CB662;
+			productRefGroup = 5C9E3F8C13EDEBFE008CB662 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5C9E3F8A13EDEBFE008CB662 /* SampleVideoUploader */,
+				5C9E3FAE13EDEBFF008CB662 /* SampleVideoUploaderTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5C9E3F8913EDEBFE008CB662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9E3F9A13EDEBFF008CB662 /* InfoPlist.strings in Resources */,
+				5C9E3FA313EDEBFF008CB662 /* MainWindow.xib in Resources */,
+				5C9E3FA913EDEBFF008CB662 /* SampleVideoUploaderViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9E3FAC13EDEBFF008CB662 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9E3FBC13EDEBFF008CB662 /* InfoPlist.strings in Resources */,
+				5C9E3FBE13EDEBFF008CB662 /* SampleVideoUploaderTests.h in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C9E3FAD13EDEBFF008CB662 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5C9E3F8713EDEBFE008CB662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9E3F9C13EDEBFF008CB662 /* main.m in Sources */,
+				5C9E3FA013EDEBFF008CB662 /* SampleVideoUploaderAppDelegate.m in Sources */,
+				5C9E3FA613EDEBFF008CB662 /* SampleVideoUploaderViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5C9E3FAA13EDEBFF008CB662 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5C9E3FC013EDEBFF008CB662 /* SampleVideoUploaderTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C9E3FB613EDEBFF008CB662 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5C9E3F8A13EDEBFE008CB662 /* SampleVideoUploader */;
+			targetProxy = 5C9E3FB513EDEBFF008CB662 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		5C9E3F9813EDEBFF008CB662 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C9E3F9913EDEBFF008CB662 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		5C9E3FA113EDEBFF008CB662 /* MainWindow.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C9E3FA213EDEBFF008CB662 /* en */,
+			);
+			name = MainWindow.xib;
+			sourceTree = "<group>";
+		};
+		5C9E3FA713EDEBFF008CB662 /* SampleVideoUploaderViewController.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C9E3FA813EDEBFF008CB662 /* en */,
+			);
+			name = SampleVideoUploaderViewController.xib;
+			sourceTree = "<group>";
+		};
+		5C9E3FBA13EDEBFF008CB662 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5C9E3FBB13EDEBFF008CB662 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		5C9E3FC113EDEBFF008CB662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		5C9E3FC213EDEBFF008CB662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvmgcc42;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 4.3;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5C9E3FC413EDEBFF008CB662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleVideoUploader/SampleVideoUploader-Prefix.pch";
+				INFOPLIST_FILE = "SampleVideoUploader/SampleVideoUploader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		5C9E3FC513EDEBFF008CB662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleVideoUploader/SampleVideoUploader-Prefix.pch";
+				INFOPLIST_FILE = "SampleVideoUploader/SampleVideoUploader-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		5C9E3FC713EDEBFF008CB662 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleVideoUploader.app/SampleVideoUploader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleVideoUploader/SampleVideoUploader-Prefix.pch";
+				INFOPLIST_FILE = "SampleVideoUploaderTests/SampleVideoUploaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		5C9E3FC813EDEBFF008CB662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SampleVideoUploader.app/SampleVideoUploader";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(DEVELOPER_LIBRARY_DIR)/Frameworks",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SampleVideoUploader/SampleVideoUploader-Prefix.pch";
+				INFOPLIST_FILE = "SampleVideoUploaderTests/SampleVideoUploaderTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5C9E3F8513EDEBFE008CB662 /* Build configuration list for PBXProject "SampleVideoUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9E3FC113EDEBFF008CB662 /* Debug */,
+				5C9E3FC213EDEBFF008CB662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5C9E3FC313EDEBFF008CB662 /* Build configuration list for PBXNativeTarget "SampleVideoUploader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9E3FC413EDEBFF008CB662 /* Debug */,
+				5C9E3FC513EDEBFF008CB662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		5C9E3FC613EDEBFF008CB662 /* Build configuration list for PBXNativeTarget "SampleVideoUploaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5C9E3FC713EDEBFF008CB662 /* Debug */,
+				5C9E3FC813EDEBFF008CB662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5C9E3F8213EDEBFE008CB662 /* Project object */;
+}
