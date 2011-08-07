@@ -7,7 +7,6 @@
 //
 
 #import "SampleVideoUploaderAppDelegate.h"
-
 #import "SampleVideoUploaderViewController.h"
 
 @implementation SampleVideoUploaderAppDelegate
