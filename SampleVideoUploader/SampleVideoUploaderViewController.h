@@ -21,6 +21,7 @@
 }
 
 @property(retain, nonatomic) GTMOAuth2Authentication* authentication;
+@property(retain, nonatomic) IBOutlet UITextView* textView;
 
 - (IBAction) doSomething:(id)sender;
 - (void) doSomethingElse:(ALAsset *)asset;

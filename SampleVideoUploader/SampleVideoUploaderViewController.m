@@ -21,6 +21,7 @@
 @implementation SampleVideoUploaderViewController
 
 @synthesize authentication;
+@synthesize textView;
 
 - (void)didReceiveMemoryWarning
 {
@@ -72,16 +73,22 @@
     if (error != nil) {
         // Authentication failed
         NSLog(@"failed, auth: %@", auth);
+        NSLog(@"failed, can authenticate? %d, error: %@", [authentication canAuthorize], error);
+        [textView setText:[NSString stringWithFormat:@"failed, can authenticate? %d, error: %@",
+                           [authentication canAuthorize],
+                           error]];
     } else {
         // Authentication succeeded
         NSLog(@"succeeded, auth: %@", auth);
         [self setAuthentication:auth];
+        [textView setText:[NSString stringWithFormat:@"succeeded, auth: %@", auth]];
     }
     
     [self dismissModalViewControllerAnimated:YES];
 }
 
-- (IBAction) doSomething:(id)sender {    
+- (IBAction) doSomething:(id)sender {  
+    
     NSString *scope = @"https://gdata.youtube.com/feeds/"; //[GDataServiceGoogleYouTube authorizationScope];
     NSLog(@"scope: %@", scope);
     
