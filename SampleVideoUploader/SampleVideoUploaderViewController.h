@@ -17,7 +17,6 @@
 #define kClientSecret     @"Nz6Ytrwzqr5tnD_E8-QzJ4Sh"
 #define kDeveloperKey     @"AI39si7H3MXz-tQpyTjyqa5BnHlNVqVWB9YAubils0HqAbETSafztzK1-_nGM5pg5Lv9xcATljHho5VCEP40lnm-kjWRvVNxZQ"
 
-
 @interface SampleVideoUploaderViewController : UIViewController {
 }
 
