@@ -1177,6 +1177,7 @@
 				5C9E3FC513EDEBFF008CB662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		5C9E3FC613EDEBFF008CB662 /* Build configuration list for PBXNativeTarget "SampleVideoUploaderTests" */ = {
 			isa = XCConfigurationList;
@@ -1185,6 +1186,7 @@
 				5C9E3FC813EDEBFF008CB662 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
