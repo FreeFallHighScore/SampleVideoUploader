@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5C8059AE13F6C39300771D53 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C8059AD13F6C39300771D53 /* GDataXMLNode.m */; };
 		5C9E3F9013EDEBFF008CB662 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E3F8F13EDEBFE008CB662 /* UIKit.framework */; };
 		5C9E3F9213EDEBFF008CB662 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E3F9113EDEBFF008CB662 /* Foundation.framework */; };
 		5C9E3F9413EDEBFF008CB662 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E3F9313EDEBFF008CB662 /* CoreGraphics.framework */; };
@@ -24,7 +25,6 @@
 		5C9E3FBE13EDEBFF008CB662 /* SampleVideoUploaderTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 5C9E3FBD13EDEBFF008CB662 /* SampleVideoUploaderTests.h */; };
 		5C9E3FC013EDEBFF008CB662 /* SampleVideoUploaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E3FBF13EDEBFF008CB662 /* SampleVideoUploaderTests.m */; };
 		5C9E3FCD13EDF192008CB662 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C9E3FCC13EDF192008CB662 /* AssetsLibrary.framework */; };
-		5C9E45F313EE2700008CB662 /* GDataXMLNode.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E45F213EE26FF008CB662 /* GDataXMLNode.m */; };
 		5C9E45F613EE282A008CB662 /* GTMOAuth2ViewControllerTouch.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E45F513EE282A008CB662 /* GTMOAuth2ViewControllerTouch.m */; };
 		5C9E45FB13EE287D008CB662 /* GTMOAuth2Authentication.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E45F813EE287D008CB662 /* GTMOAuth2Authentication.m */; };
 		5C9E45FC13EE287D008CB662 /* GTMOAuth2SignIn.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C9E45FA13EE287D008CB662 /* GTMOAuth2SignIn.m */; };
@@ -45,6 +45,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		5C8059AC13F6C39300771D53 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GDataXMLNode.h; sourceTree = "<group>"; };
+		5C8059AD13F6C39300771D53 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GDataXMLNode.m; sourceTree = "<group>"; };
 		5C9E3F8B13EDEBFE008CB662 /* SampleVideoUploader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SampleVideoUploader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C9E3F8F13EDEBFE008CB662 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		5C9E3F9113EDEBFF008CB662 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -66,8 +68,6 @@
 		5C9E3FBD13EDEBFF008CB662 /* SampleVideoUploaderTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SampleVideoUploaderTests.h; sourceTree = "<group>"; };
 		5C9E3FBF13EDEBFF008CB662 /* SampleVideoUploaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SampleVideoUploaderTests.m; sourceTree = "<group>"; };
 		5C9E3FCC13EDF192008CB662 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
-		5C9E45F113EE26FF008CB662 /* GDataXMLNode.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GDataXMLNode.h; path = "../../VideoStuff/gdata-objectivec-client-read-only/Source/XMLSupport/GDataXMLNode.h"; sourceTree = "<group>"; };
-		5C9E45F213EE26FF008CB662 /* GDataXMLNode.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GDataXMLNode.m; path = "../../VideoStuff/gdata-objectivec-client-read-only/Source/XMLSupport/GDataXMLNode.m"; sourceTree = "<group>"; };
 		5C9E45F413EE282A008CB662 /* GTMOAuth2ViewControllerTouch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2ViewControllerTouch.h; sourceTree = "<group>"; };
 		5C9E45F513EE282A008CB662 /* GTMOAuth2ViewControllerTouch.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GTMOAuth2ViewControllerTouch.m; sourceTree = "<group>"; };
 		5C9E45F713EE287D008CB662 /* GTMOAuth2Authentication.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GTMOAuth2Authentication.h; sourceTree = "<group>"; };
@@ -514,14 +514,14 @@
 		5C9E449B13EE1FCE008CB662 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
+				5C8059AC13F6C39300771D53 /* GDataXMLNode.h */,
+				5C8059AD13F6C39300771D53 /* GDataXMLNode.m */,
 				5C9E45F713EE287D008CB662 /* GTMOAuth2Authentication.h */,
 				5C9E45F813EE287D008CB662 /* GTMOAuth2Authentication.m */,
 				5C9E45F913EE287D008CB662 /* GTMOAuth2SignIn.h */,
 				5C9E45FA13EE287D008CB662 /* GTMOAuth2SignIn.m */,
 				5C9E45F413EE282A008CB662 /* GTMOAuth2ViewControllerTouch.h */,
 				5C9E45F513EE282A008CB662 /* GTMOAuth2ViewControllerTouch.m */,
-				5C9E45F113EE26FF008CB662 /* GDataXMLNode.h */,
-				5C9E45F213EE26FF008CB662 /* GDataXMLNode.m */,
 			);
 			name = Libraries;
 			sourceTree = "<group>";
@@ -974,10 +974,10 @@
 				5C9E3F9C13EDEBFF008CB662 /* main.m in Sources */,
 				5C9E3FA013EDEBFF008CB662 /* SampleVideoUploaderAppDelegate.m in Sources */,
 				5C9E3FA613EDEBFF008CB662 /* SampleVideoUploaderViewController.m in Sources */,
-				5C9E45F313EE2700008CB662 /* GDataXMLNode.m in Sources */,
 				5C9E45F613EE282A008CB662 /* GTMOAuth2ViewControllerTouch.m in Sources */,
 				5C9E45FB13EE287D008CB662 /* GTMOAuth2Authentication.m in Sources */,
 				5C9E45FC13EE287D008CB662 /* GTMOAuth2SignIn.m in Sources */,
+				5C8059AE13F6C39300771D53 /* GDataXMLNode.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
